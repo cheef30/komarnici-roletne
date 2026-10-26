@@ -61,7 +61,7 @@ Koriste se samo prave fotografije sa Google profila firme. Posle pregleda:
 `vercel.json` uključuje čiste adrese, cache za `/assets/` (godinu dana, immutable) i
 sigurnosna zaglavlja. `.vercelignore` isključuje `scripts/`, `partials/` i `node_modules/`.
 
-**GitHub Pages:** objavite granu iz korena (fajl `CNAME` za domen je već tu).
+**GitHub Pages:** objavite granu iz korena. Za sopstveni domen dodajte fajl `CNAME` sa `komarnici-roletneservis.rs`.
 
 Putanje u stranicama su relativne (`../assets/...`), pa se slike i stilovi vide i kad se
 `index.html` otvori duplim klikom sa diska. Za klikanje između stranica lokalno pokrenite
