@@ -1,0 +1,139 @@
+{
+  "plise-komarnik-balkonski-prozor-i-vrata": {
+    "id": 4,
+    "width": 2400,
+    "height": 3000,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "aluminijumske-roletne-pogled-na-beograd": {
+    "id": 10,
+    "width": 2400,
+    "height": 3000,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "aluminijumske-roletne-pogled-na-beograd-siroko": {
+    "id": 10,
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "plise-komarnici-za-vrata-antracit": {
+    "id": 0,
+    "width": 2400,
+    "height": 3200,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
+  },
+  "plise-komarnik-za-balkonska-vrata": {
+    "id": 3,
+    "width": 2400,
+    "height": 3200,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
+  },
+  "plise-komarnik-prozor-pogled-iznutra": {
+    "id": 5,
+    "width": 1536,
+    "height": 2040,
+    "widths": [
+      480,
+      800,
+      1200
+    ]
+  },
+  "izrada-komarnika-aluminijumski-profil": {
+    "id": 6,
+    "width": 2400,
+    "height": 3200,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
+  },
+  "komarnik-prozor-potkrovlje-spolja": {
+    "id": 7,
+    "width": 2400,
+    "height": 3200,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
+  },
+  "komarnik-za-vrata-beli-okvir": {
+    "id": 8,
+    "width": 405,
+    "height": 900,
+    "widths": [
+      405
+    ]
+  },
+  "komarnik-za-ulazna-vrata-beli": {
+    "id": 9,
+    "width": 405,
+    "height": 900,
+    "widths": [
+      405
+    ]
+  },
+  "plise-komarnik-antracit-okvir": {
+    "id": 11,
+    "width": 405,
+    "height": 900,
+    "widths": [
+      405
+    ]
+  },
+  "aluminijumska-roletna-gurtna": {
+    "id": 1,
+    "width": 2400,
+    "height": 3200,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
+  },
+  "aluminijumska-roletna-gurtna-portret": {
+    "id": 1,
+    "width": 2400,
+    "height": 3000,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  }
+}

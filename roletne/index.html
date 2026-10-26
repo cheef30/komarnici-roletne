@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="sr-Latn">
+<head>
+<!-- @head -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preload" href="../assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<style>@font-face{font-family:Archivo;font-style:normal;font-weight:400 820;font-stretch:75% 100%;font-display:swap;src:url(../assets/fonts/archivo-var.woff2) format("woff2")}@font-face{font-family:"Archivo Fallback";src:local("Arial"),local("Helvetica Neue"),local("Helvetica");size-adjust:98.5%;ascent-override:89%;descent-override:21.3%;line-gap-override:0%}@font-face{font-family:"Archivo Head Fallback";src:local("Arial Bold"),local("Arial-BoldMT"),local("Helvetica Neue Bold"),local("Arial");font-weight:700;size-adjust:85.2%;ascent-override:103%;descent-override:24.6%;line-gap-override:0%}:root{--ink:#1D2422;--paper:#F4F3EF;--white:#FFF;--green:#2D6A4F;--green-dark:#235540;--muted:#56605B;--green-on-dark:#9FD3B8;--line:rgba(29,36,34,.12);--line-strong:rgba(29,36,34,.26);--font:Archivo,"Archivo Fallback",system-ui,sans-serif;--font-head:Archivo,"Archivo Head Fallback",system-ui,sans-serif;--head-stretch:82%;--wrap:76rem;--gutter:1rem;--r-photo:12px;--r-ui:8px;--ease:cubic-bezier(.2,.7,.2,1);--mesh:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='7'%3E%3Cpath d='M0 .5h7M.5 0v7' fill='none' stroke='%231D2422' stroke-opacity='.11'/%3E%3C/svg%3E");--mesh-light:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='7'%3E%3Cpath d='M0 .5h7M.5 0v7' fill='none' stroke='%23FFF' stroke-opacity='.08'/%3E%3C/svg%3E")}*,*::before,*::after{box-sizing:border-box}html{font-size:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-padding-top:5rem}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font);font-size:1rem;line-height:1.55;font-kerning:normal;-webkit-font-smoothing:antialiased}img,svg,picture{display:block;max-width:100%}img{height:auto}h1,h2,h3,h4,p,ul,ol,figure,blockquote{margin:0}:where(ul[role=list],ol[role=list]){list-style:none;padding:0}a{color:var(--green);text-underline-offset:.18em;text-decoration-thickness:1px}h1,h2{font-family:var(--font-head);font-stretch:var(--head-stretch);font-weight:760;letter-spacing:-.012em;line-height:1.02;text-wrap:balance}h3,h4{font-weight:660;letter-spacing:-.01em;line-height:1.2}:focus-visible{outline:3px solid var(--green);outline-offset:3px;border-radius:4px}.wrap{width:100%;max-width:calc(var(--wrap) + 2*var(--gutter));margin-inline:auto;padding-inline:var(--gutter)}.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.skip{position:absolute;left:1rem;top:-4rem;z-index:100;background:var(--ink);color:var(--white);padding:.75rem 1rem;border-radius:var(--r-ui)}.skip:focus{top:1rem}.icon{width:1.25em;height:1.25em;flex:none;fill:currentColor}.num{font-variant-numeric:tabular-nums}.site-header{position:sticky;top:0;z-index:40;background:var(--paper);border-bottom:1px solid var(--line)}.header-inner{display:flex;align-items:center;gap:.5rem;min-height:4rem}.logo{display:flex;align-items:center;gap:.55rem;margin-right:auto;padding-block:.6rem;color:var(--ink);text-decoration:none;white-space:nowrap}.mark{width:1.75rem;height:1.75rem;flex:none;color:var(--ink);--mark-accent:var(--green)}.logo-text{font-family:var(--font-head);font-stretch:88%;font-weight:800;font-size:1.1875rem;letter-spacing:-.015em;line-height:1}.logo-text span{color:var(--green)}.nav-toggle,.header-call{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-width:2.75rem;min-height:2.75rem;border-radius:var(--r-ui)}.nav-toggle{border:1px solid var(--line-strong);background:transparent;color:var(--ink);padding:0;cursor:pointer;font:inherit}.nav-toggle .icon{width:1.375rem;height:1.375rem}.header-call{background:var(--ink);color:var(--white);text-decoration:none;font-weight:620;padding:0 .8rem;font-variant-numeric:tabular-nums;transition:background-color .15s}.header-call:hover{background:var(--green)}.header-call span{display:none}.nav-list{list-style:none;margin:0;padding:0}.nav-list a{color:var(--ink);text-decoration:none;font-weight:560}.nav-list a[aria-current=page]{color:var(--green)}.js .nav-list{display:none}.js .nav-open .nav-list{display:block;position:absolute;left:0;right:0;top:100%;background:var(--paper);border-bottom:1px solid var(--line);padding:.25rem var(--gutter) 1rem;box-shadow:0 24px 32px -24px rgba(29,36,34,.35)}.nav-list li a{display:flex;align-items:center;min-height:3.25rem;font-family:var(--font-head);font-stretch:var(--head-stretch);font-weight:700;font-size:1.5rem;border-bottom:1px solid var(--line)}.nav-list li:last-child a{border-bottom:0}html:not(.js) .nav-toggle{display:none}html:not(.js) .header-inner{flex-wrap:wrap}html:not(.js) .nav-list{display:flex;gap:1rem;order:3;width:100%}.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;min-height:3rem;padding:.75rem 1.25rem;border-radius:var(--r-ui);font:inherit;font-weight:620;line-height:1.2;text-decoration:none;white-space:nowrap;border:1.5px solid transparent;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s,transform .12s var(--ease)}.btn:active{transform:scale(.98)}.btn .icon{width:1.2em;height:1.2em}.btn-primary{background:var(--green);color:var(--white)}.btn-primary:hover{background:var(--green-dark)}.btn-ghost{border-color:var(--line-strong);color:var(--ink);background:transparent}.btn-ghost:hover{border-color:var(--ink)}.btn-row{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.75rem}.hero{padding-block:1.75rem 3rem}.hero-grid{display:grid;gap:2.75rem}.hero h1{font-size:2.5rem;font-weight:780;letter-spacing:-.018em;line-height:.98}.hero-lead{font-size:1.125rem;color:var(--muted);margin-top:1.25rem;max-width:34ch}.hero-actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.75rem}.hero-actions .btn{flex:1 1 15rem}.rating{display:inline-flex;align-items:center;flex-wrap:wrap;gap:.35rem .7rem;margin-top:1.75rem;color:var(--ink);text-decoration:none}.rating strong{font-family:var(--font-head);font-stretch:var(--head-stretch);font-size:1.75rem;font-weight:780;line-height:1}.stars{display:flex;gap:1px;color:var(--ink)}.stars svg{width:1.05rem;height:1.05rem;fill:currentColor}.rating span:last-child{color:var(--muted);text-decoration:underline;text-decoration-color:var(--line-strong);text-underline-offset:.2em}.rating:hover span:last-child{color:var(--ink);text-decoration-color:currentColor}.hero-media{position:relative;margin:.75rem .75rem 0 0}.hero-media::before{content:"";position:absolute;inset:-.75rem -.75rem .75rem .75rem;background:var(--mesh);border:1px solid var(--line);border-radius:calc(var(--r-photo) + 4px)}.hero-media picture{position:relative}.hero-media img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r-photo)}.hero-quote{position:relative;margin:-3rem 1rem 0 -.25rem;background:var(--white);border-radius:var(--r-photo);padding:1rem 1.25rem;box-shadow:0 18px 40px -22px rgba(29,36,34,.45);max-width:22rem}.hero-quote p{font-size:.9375rem;line-height:1.45}.hero-quote footer{font-size:.8125rem;color:var(--muted);margin-top:.5rem}.trust{border-block:1px solid var(--line);background:var(--white)}.trust ul{display:grid;grid-template-columns:1fr 1fr;gap:1rem 1.5rem;padding-block:1.25rem}.trust li{display:flex;gap:.6rem;align-items:flex-start;font-size:.9375rem;line-height:1.35;font-weight:560}.trust .icon{color:var(--green);width:1.375rem;height:1.375rem;margin-top:-.05em}.crumbs ol{display:flex;flex-wrap:wrap;gap:.25rem;font-size:.875rem;color:var(--muted);padding-block:1.25rem 0}.crumbs li+li::before{content:"›";margin-right:.4rem;color:var(--line-strong)}.crumbs a{color:var(--muted)}.crumbs [aria-current]{color:var(--ink)}.page-hero{padding-block:1.25rem 3rem}.page-hero-grid{display:grid;gap:2rem;align-items:center}.page-hero h1{font-size:2.5rem;font-weight:780;letter-spacing:-.018em;line-height:.98;max-width:15ch}.page-hero .lead{font-size:1.125rem;color:var(--muted);margin-top:1.25rem;max-width:36rem}.page-hero-media img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r-photo)}.notfound{padding-block:4rem 5rem}.notfound h1{font-size:2.5rem;max-width:18ch}.notfound p{color:var(--muted);margin-top:1rem;max-width:34rem}@media (min-width:640px){:root{--gutter:2rem}.header-call span{display:inline}.trust ul{grid-template-columns:repeat(4,1fr)}.hero h1,.page-hero h1,.notfound h1{font-size:3rem}.hero-actions .btn{flex:0 1 auto}.hero-media img{aspect-ratio:5/4;object-position:50% 45%}}@media (min-width:900px){html{font-size:112.5%}.nav-toggle{display:none}.js .nav-list,.nav-list{display:flex;gap:.125rem;margin-right:.75rem}.nav-list li a{min-height:2.75rem;padding:0 .8rem;font-family:var(--font);font-stretch:100%;font-weight:560;font-size:1rem;border:0;border-radius:var(--r-ui)}.nav-list li a:hover{background:rgba(29,36,34,.06)}.header-inner{min-height:4.25rem}.hero{padding-block:2.75rem 4.5rem}.hero-grid{grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);align-items:center;gap:4rem}.hero h1{font-size:clamp(2.6rem,4.7vw,4.1rem)}.hero-lead{font-size:1.25rem}.hero-media{margin:1.25rem 1.25rem 0 0}.hero-media::before{inset:-1.25rem -1.25rem 1.25rem 1.25rem}.hero-media img{aspect-ratio:auto;height:min(40rem,calc(100vh - 11rem));min-height:28rem}.hero-quote{position:absolute;left:-3rem;bottom:2rem;margin:0;max-width:20rem}.page-hero{padding-block:2rem 4.5rem}.page-hero-grid{grid-template-columns:1fr 1fr;gap:4rem}.page-hero h1,.notfound h1{font-size:clamp(2.6rem,4vw,3.4rem)}.page-hero .lead{font-size:1.25rem}.page-hero-media img{aspect-ratio:auto;height:min(34rem,calc(100vh - 12rem));min-height:24rem}}@media (prefers-reduced-motion:no-preference){.hero-copy>*{animation:rise .42s var(--ease) both}.hero-copy>:nth-child(2){animation-delay:.06s}.hero-copy>:nth-child(n+3){animation-delay:.12s}.hero-media img{animation:settle .6s var(--ease) both}.hero-media::before{animation:frame .6s var(--ease) .04s both}.hero-quote{animation:rise .42s var(--ease) .26s both}@keyframes rise{from{opacity:0;transform:translateY(8px)}}@keyframes settle{from{transform:scale(1.02)}}@keyframes frame{from{transform:translate(-.75rem,.75rem)}}}</style>
+<link rel="stylesheet" href="../assets/css/style.css?v=5e42eb4d" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="../assets/css/style.css?v=5e42eb4d"></noscript>
+<script>document.documentElement.classList.add('js')</script>
+<script src="../assets/js/main.js?v=65e5ce79" defer></script>
+<link rel="icon" href="../favicon.ico" sizes="32x32">
+<link rel="icon" href="../assets/icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<meta name="theme-color" content="#F4F3EF">
+<meta name="format-detection" content="telephone=no">
+<!-- /@head -->
+<title>Aluminijumske roletne Beograd, izrada i ugradnja | Ivan</title>
+<meta name="description" content="Aluminijumske roletne sa lamelama punjenim poliuretanskom penom: na gurtnu, kanap ili elektro motor. Izrada i ugradnja u Beogradu, 060 193 0660.">
+<link rel="canonical" href="https://komarnici-roletneservis.rs/roletne/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sr_RS">
+<meta property="og:site_name" content="Komarnici i Roletne Ivan">
+<meta property="og:title" content="Aluminijumske roletne po meri, Beograd">
+<meta property="og:description" content="Lamele punjene poliuretanskom penom, na gurtnu, kanap ili elektro motor. Izrada i ugradnja u Beogradu.">
+<meta property="og:url" content="https://komarnici-roletneservis.rs/roletne/">
+<meta property="og:image" content="https://komarnici-roletneservis.rs/assets/img/og-komarnici-roletne-ivan.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aluminijumske roletne po meri, Beograd">
+<meta name="twitter:description" content="Lamele punjene poliuretanskom penom, na gurtnu, kanap ili elektro motor.">
+<meta name="twitter:image" content="https://komarnici-roletneservis.rs/assets/img/og-komarnici-roletne-ivan.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://komarnici-roletneservis.rs/roletne/#usluga",
+      "name": "Aluminijumske roletne",
+      "serviceType": "Izrada i ugradnja aluminijumskih roletni",
+      "description": "Izrada i ugradnja aluminijumskih roletni sa čepovanim lamelama punjenim poliuretanskom penom: Rondo sa zaobljenom kutijom, sa petougaonom kutijom, sa gurtnom, sa kanapom i sa elektro motorom. Boje: bela, antracit i braon.",
+      "url": "https://komarnici-roletneservis.rs/roletne/",
+      "areaServed": { "@type": "City", "name": "Beograd" },
+      "provider": {
+        "@type": "HomeAndConstructionBusiness",
+        "@id": "https://komarnici-roletneservis.rs/#firma",
+        "name": "Komarnici i Roletne Ivan",
+        "telephone": "+381601930660",
+        "url": "https://komarnici-roletneservis.rs/",
+        "address": { "@type": "PostalAddress", "streetAddress": "Dimitrija Tucovića 119", "postalCode": "11050", "addressLocality": "Beograd", "addressCountry": "RS" }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Početna", "item": "https://komarnici-roletneservis.rs/" },
+        { "@type": "ListItem", "position": 2, "name": "Roletne", "item": "https://komarnici-roletneservis.rs/roletne/" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- @header -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="i-phone" viewBox="0 0 256 256"><path d="M222.37,158.46l-47.11-21.11-.13-.06a16,16,0,0,0-15.17,1.4,8.12,8.12,0,0,0-.75.56L134.87,160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16,16,0,0,0,1.32-15.06l0-.12L97.54,33.64a16,16,0,0,0-16.62-9.52A56.26,56.26,0,0,0,32,80c0,79.4,64.6,144,144,144a56.26,56.26,0,0,0,55.88-48.92A16,16,0,0,0,222.37,158.46ZM176,208A128.14,128.14,0,0,1,48,80,40.2,40.2,0,0,1,82.87,40a.61.61,0,0,0,0,.12l21,47L83.2,111.86a6.13,6.13,0,0,0-.57.77,16,16,0,0,0-1,15.7c9.06,18.53,27.73,37.06,46.46,46.11a16,16,0,0,0,15.75-1.14,8.44,8.44,0,0,0,.74-.56L168.89,152l47,21.05h0s.08,0,.11,0A40.21,40.21,0,0,1,176,208Z"/></symbol><symbol id="i-mail" viewBox="0 0 256 256"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM203.43,64,128,133.15,52.57,64ZM216,192H40V74.19l82.59,75.71a8,8,0,0,0,10.82,0L216,74.19V192Z"/></symbol><symbol id="i-pin" viewBox="0 0 256 256"><path d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"/></symbol><symbol id="i-pin-fill" viewBox="0 0 256 256"><path d="M128,16a88.1,88.1,0,0,0-88,88c0,75.3,80,132.17,83.41,134.55a8,8,0,0,0,9.18,0C136,236.17,216,179.3,216,104A88.1,88.1,0,0,0,128,16Zm0,56a32,32,0,1,1-32,32A32,32,0,0,1,128,72Z"/></symbol><symbol id="i-ruler" viewBox="0 0 256 256"><path d="M235.32,73.37,182.63,20.69a16,16,0,0,0-22.63,0L20.68,160a16,16,0,0,0,0,22.63l52.69,52.68a16,16,0,0,0,22.63,0L235.32,96A16,16,0,0,0,235.32,73.37ZM84.68,224,32,171.31l32-32,26.34,26.35a8,8,0,0,0,11.32-11.32L75.31,128,96,107.31l26.34,26.35a8,8,0,0,0,11.32-11.32L107.31,96,128,75.31l26.34,26.35a8,8,0,0,0,11.32-11.32L139.31,64l32-32L224,84.69Z"/></symbol><symbol id="i-swatch" viewBox="0 0 256 256"><path d="M200.77,53.89A103.27,103.27,0,0,0,128,24h-1.07A104,104,0,0,0,24,128c0,43,26.58,79.06,69.36,94.17A32,32,0,0,0,136,192a16,16,0,0,1,16-16h46.21a31.81,31.81,0,0,0,31.2-24.88,104.43,104.43,0,0,0,2.59-24A103.28,103.28,0,0,0,200.77,53.89Zm13,93.71A15.89,15.89,0,0,1,198.21,160H152a32,32,0,0,0-32,32,16,16,0,0,1-21.31,15.07C62.49,194.3,40,164,40,128a88,88,0,0,1,87.09-88h.9a88.35,88.35,0,0,1,88,87.25A88.86,88.86,0,0,1,213.81,147.6ZM140,76a12,12,0,1,1-12-12A12,12,0,0,1,140,76ZM96,100A12,12,0,1,1,84,88,12,12,0,0,1,96,100Zm0,56a12,12,0,1,1-12-12A12,12,0,0,1,96,156Zm88-56a12,12,0,1,1-12-12A12,12,0,0,1,184,100Z"/></symbol><symbol id="i-camera" viewBox="0 0 256 256"><path d="M208,56H180.28L166.65,35.56A8,8,0,0,0,160,32H96a8,8,0,0,0-6.65,3.56L75.71,56H48A24,24,0,0,0,24,80V192a24,24,0,0,0,24,24H208a24,24,0,0,0,24-24V80A24,24,0,0,0,208,56Zm8,136a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8H80a8,8,0,0,0,6.66-3.56L100.28,48h55.43l13.63,20.44A8,8,0,0,0,176,72h32a8,8,0,0,1,8,8ZM128,88a44,44,0,1,0,44,44A44.05,44.05,0,0,0,128,88Zm0,72a28,28,0,1,1,28-28A28,28,0,0,1,128,160Z"/></symbol><symbol id="i-frame" viewBox="0 0 256 256"><path d="M216,48H40A16,16,0,0,0,24,64V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V64A16,16,0,0,0,216,48ZM104,144V112h48v32Zm48,16v32H104V160ZM40,112H88v32H40Zm64-16V64h48V96Zm64,16h48v32H168Zm48-16H168V64h48ZM88,64V96H40V64ZM40,160H88v32H40Zm176,32H168V160h48v32Z"/></symbol><symbol id="i-check" viewBox="0 0 256 256"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"/></symbol><symbol id="i-clock" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm64-88a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v48h48A8,8,0,0,1,192,128Z"/></symbol><symbol id="i-wind" viewBox="0 0 256 256"><path d="M184,184a32,32,0,0,1-32,32c-13.7,0-26.95-8.93-31.5-21.22a8,8,0,0,1,15-5.56C137.74,195.27,145,200,152,200a16,16,0,0,0,0-32H40a8,8,0,0,1,0-16H152A32,32,0,0,1,184,184Zm-64-80a32,32,0,0,0,0-64c-13.7,0-26.95,8.93-31.5,21.22a8,8,0,0,0,15,5.56C105.74,60.73,113,56,120,56a16,16,0,0,1,0,32H24a8,8,0,0,0,0,16Zm88-32c-13.7,0-26.95,8.93-31.5,21.22a8,8,0,0,0,15,5.56C193.74,92.73,201,88,208,88a16,16,0,0,1,0,32H32a8,8,0,0,0,0,16H208a32,32,0,0,0,0-64Z"/></symbol><symbol id="i-menu" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"/></symbol><symbol id="i-close" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></symbol><symbol id="i-prev" viewBox="0 0 256 256"><path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"/></symbol><symbol id="i-next" viewBox="0 0 256 256"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"/></symbol><symbol id="i-star" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></symbol><symbol id="i-arrow" viewBox="0 0 256 256"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"/></symbol><symbol id="i-chat" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol><symbol id="i-viber" viewBox="0 0 24 24"><path d="M11.4 0C9.473.028 5.333.344 3.02 2.467 1.302 4.187.696 6.7.633 9.817.57 12.933.488 18.776 6.12 20.36h.003l-.004 2.416s-.037.977.61 1.177c.777.242 1.234-.5 1.98-1.302.407-.44.972-1.084 1.397-1.58 3.85.326 6.812-.416 7.15-.525.776-.252 5.176-.816 5.892-6.657.74-6.02-.36-9.83-2.34-11.546-.596-.55-3.006-2.3-8.375-2.323 0 0-.395-.025-1.037-.017zm.058 1.693c.545-.004.88.017.88.017 4.542.02 6.717 1.388 7.222 1.846 1.675 1.435 2.53 4.868 1.906 9.897v.002c-.604 4.878-4.174 5.184-4.832 5.395-.28.09-2.882.737-6.153.524 0 0-2.436 2.94-3.197 3.704-.12.12-.26.167-.352.144-.13-.033-.166-.188-.165-.414l.02-4.018c-4.762-1.32-4.485-6.292-4.43-8.895.054-2.604.543-4.738 1.996-6.173 1.96-1.773 5.474-2.018 7.11-2.03zm.38 2.602c-.167 0-.303.135-.304.302 0 .167.133.303.3.305 1.624.01 2.946.537 4.028 1.592 1.073 1.046 1.62 2.468 1.633 4.334.002.167.14.3.307.3.166-.002.3-.138.3-.304-.014-1.984-.618-3.596-1.816-4.764-1.19-1.16-2.692-1.753-4.447-1.765zm-3.96.695c-.19-.032-.4.005-.616.117l-.01.002c-.43.247-.816.562-1.146.932-.002.004-.006.004-.008.008-.267.323-.42.638-.46.948-.008.046-.01.093-.007.14 0 .136.022.27.065.4l.013.01c.135.48.473 1.276 1.205 2.604.42.768.903 1.5 1.446 2.186.27.344.56.673.87.984l.132.132c.31.308.64.6.984.87.686.543 1.418 1.027 2.186 1.447 1.328.733 2.126 1.07 2.604 1.206l.01.014c.13.042.265.064.402.063.046.002.092 0 .138-.008.31-.036.627-.19.948-.46.004 0 .003-.002.008-.005.37-.33.683-.72.93-1.148l.003-.01c.225-.432.15-.842-.18-1.12-.004 0-.698-.58-1.037-.83-.36-.255-.73-.492-1.113-.71-.51-.285-1.032-.106-1.248.174l-.447.564c-.23.283-.657.246-.657.246-3.12-.796-3.955-3.955-3.955-3.955s-.037-.426.248-.656l.563-.448c.277-.215.456-.737.17-1.248-.217-.383-.454-.756-.71-1.115-.25-.34-.826-1.033-.83-1.035-.137-.165-.31-.265-.502-.297zm4.49.88c-.158.002-.29.124-.3.282-.01.167.115.312.282.324 1.16.085 2.017.466 2.645 1.15.63.688.93 1.524.906 2.57-.002.168.13.306.3.31.166.003.305-.13.31-.297.025-1.175-.334-2.193-1.067-2.994-.74-.81-1.777-1.253-3.05-1.346h-.024zm.463 1.63c-.16.002-.29.127-.3.287-.008.167.12.31.288.32.523.028.875.175 1.113.422.24.245.388.62.416 1.164.01.167.15.295.318.287.167-.008.295-.15.287-.317-.03-.644-.215-1.178-.58-1.557-.367-.378-.893-.574-1.52-.607h-.018z"/></symbol><symbol id="i-mark" viewBox="0 0 32 32"><rect x="5" y="3" width="22" height="5" rx="1" fill="currentColor"/><path d="M7.5 8v21h17V8" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M8.7 12h14.6M8.7 15h14.6M11.5 9v10M15 9v10M18.5 9v10M22 9v10" stroke="currentColor" stroke-width=".9" opacity=".55"/><rect x="8.7" y="19" width="14.6" height="2.6" fill="var(--mark-accent,currentColor)"/></symbol></svg>
+<a class="skip" href="#sadrzaj">Preskoči na sadržaj</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="../"><svg class="mark" aria-hidden="true"><use href="#i-mark"/></svg><span class="logo-text">Komarnici <span>i roletne</span> Ivan</span></a>
+    <nav class="nav" aria-label="Glavna navigacija">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="meni">
+        <svg class="icon" aria-hidden="true"><use href="#i-menu"/></svg>
+        <span class="sr-only">Otvori meni</span>
+      </button>
+      <ul class="nav-list" id="meni">
+        <li><a href="../komarnici/">Komarnici</a></li>
+        <li><a href="../roletne/" aria-current="page">Roletne</a></li>
+        <li><a href="../servis/">Servis</a></li>
+        <li><a href="../kontakt/">Kontakt</a></li>
+      </ul>
+    </nav>
+    <a class="header-call" href="tel:+381601930660" aria-label="Pozovite 060 193 0660">
+      <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+      <span>060 193 0660</span>
+    </a>
+  </div>
+</header>
+<!-- /@header -->
+
+<main id="sadrzaj">
+  <nav class="crumbs wrap" aria-label="Putanja">
+    <ol role="list">
+      <li><a href="../">Početna</a></li>
+      <li><span aria-current="page">Roletne</span></li>
+    </ol>
+  </nav>
+
+  <section class="page-hero" data-hero aria-labelledby="naslov">
+    <div class="wrap page-hero-grid">
+      <div>
+        <h1 id="naslov">Aluminijumske roletne po meri</h1>
+        <p class="lead">Izrada i ugradnja roletni od profila najvišeg kvaliteta, u Beogradu. Lamele su čepovane i punjene poliuretanskom penom, pa roletna bolje čuva toplotu i tiše radi.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="../kontakt/#forma">Zakažite merenje</a>
+          <a class="btn btn-ghost" href="tel:+381601930660"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Pozovite 060 193 0660</a>
+        </div>
+      </div>
+      <figure class="page-hero-media">
+        <picture data-img="aluminijumske-roletne-pogled-na-beograd" data-sizes="(min-width: 1400px) 640px, (min-width: 900px) 46vw, calc(100vw - 32px)" data-alt="Aluminijumske roletne na prozoru stana sa pogledom na Beograd" data-eager><source type="image/avif" srcset="../assets/img/aluminijumske-roletne-pogled-na-beograd-480.avif 480w, ../assets/img/aluminijumske-roletne-pogled-na-beograd-800.avif 800w, ../assets/img/aluminijumske-roletne-pogled-na-beograd-1200.avif 1200w, ../assets/img/aluminijumske-roletne-pogled-na-beograd-1600.avif 1600w, ../assets/img/aluminijumske-roletne-pogled-na-beograd-2000.avif 2000w" sizes="(min-width: 1400px) 640px, (min-width: 900px) 46vw, calc(100vw - 32px)"><source type="image/webp" srcset="../assets/img/aluminijumske-roletne-pogled-na-beograd-480.webp 480w, ../assets/img/aluminijumske-roletne-pogled-na-beograd-800.webp 800w, ../assets/img/aluminijumske-roletne-pogled-na-beograd-1200.webp 1200w, ../assets/img/aluminijumske-roletne-pogled-na-beograd-1600.webp 1600w, ../assets/img/aluminijumske-roletne-pogled-na-beograd-2000.webp 2000w" sizes="(min-width: 1400px) 640px, (min-width: 900px) 46vw, calc(100vw - 32px)"><img src="../assets/img/aluminijumske-roletne-pogled-na-beograd-800.jpg" srcset="../assets/img/aluminijumske-roletne-pogled-na-beograd-480.jpg 480w, ../assets/img/aluminijumske-roletne-pogled-na-beograd-800.jpg 800w, ../assets/img/aluminijumske-roletne-pogled-na-beograd-1200.jpg 1200w, ../assets/img/aluminijumske-roletne-pogled-na-beograd-1600.jpg 1600w, ../assets/img/aluminijumske-roletne-pogled-na-beograd-2000.jpg 2000w" sizes="(min-width: 1400px) 640px, (min-width: 900px) 46vw, calc(100vw - 32px)" width="800" height="1000" alt="Aluminijumske roletne na prozoru stana sa pogledom na Beograd" fetchpriority="high"></picture>
+      </figure>
+    </div>
+  </section>
+
+  <section class="block block-white" aria-labelledby="lamela">
+    <div class="wrap split">
+      <div class="prose">
+        <h2 id="lamela">Šta je u lameli</h2>
+        <p>Roletna je onoliko dobra koliko su dobre njene lamele. Mi radimo sa aluminijumskim lamelama koje su na krajevima zatvorene čepovima, a iznutra punjene poliuretanskom penom.</p>
+        <p>Čepovi ne puštaju vodu u lamelu. Pena daje toplotnu izolaciju, pa leti manje toplote ulazi u sobu, a zimi manje izlazi. Uz to roletna radi tiše kad je spuštate i podižete.</p>
+      </div>
+      <figure class="lamela">
+        <svg viewBox="0 0 400 124" role="img" aria-labelledby="lamela-opis">
+          <title id="lamela-opis">Šema aluminijumske lamele: čepovi na krajevima i poliuretanska pena unutra</title>
+          <defs>
+            <pattern id="pena" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.1" fill="#1D2422" opacity=".35"/></pattern>
+          </defs>
+          <rect x="30" y="0" width="340" height="36" rx="8" fill="#E6E7E3" stroke="#1D2422" stroke-width="1.2" opacity=".35"/>
+          <rect x="30" y="88" width="340" height="36" rx="8" fill="#E6E7E3" stroke="#1D2422" stroke-width="1.2" opacity=".35"/>
+          <rect x="30" y="42" width="340" height="40" rx="8" fill="#E6E7E3" stroke="#1D2422" stroke-width="1.5"/>
+          <rect x="140" y="47" width="150" height="30" rx="3" fill="#F7F3E3"/>
+          <rect x="140" y="47" width="150" height="30" rx="3" fill="url(#pena)" stroke="#1D2422" stroke-width="1" stroke-dasharray="3 3"/>
+          <rect x="16" y="44" width="18" height="36" rx="3" fill="#2D6A4F"/>
+          <rect x="366" y="44" width="18" height="36" rx="3" fill="#2D6A4F"/>
+        </svg>
+        <dl>
+          <div><dt><span class="key" style="background:#2D6A4F"></span>Čepovi na krajevima</dt><dd>Štite lamelu od prodora vode.</dd></div>
+          <div><dt><span class="key key-foam"></span>Poliuretanska pena</dt><dd>Toplotna izolacija i tiši rad pri spuštanju i podizanju.</dd></div>
+          <div><dt><span class="key" style="background:#E6E7E3"></span>Aluminijumski profil</dt><dd>Spoljni deo lamele, otporan na vremenske uslove.</dd></div>
+        </dl>
+      </figure>
+    </div>
+  </section>
+
+<section class="block" aria-labelledby="tipovi">
+    <div class="wrap">
+      <div class="head">
+        <h2 id="tipovi">Tipovi roletni</h2>
+        <p>Roletne se razlikuju po obliku kutije i po tome kako ih pokrećete. Na merenju zajedno biramo šta odgovara vašem prozoru i fasadi.</p>
+      </div>
+      <div class="groups">
+        <div class="group">
+          <h3>Kutija</h3>
+          <ul role="list">
+            <li><h4>Rondo, sa zaobljenom kutijom</h4><p>Kutija u kojoj se roletna namotava ima zaobljenu prednju stranu, pa se mekše uklapa uz fasadu i prozor.</p></li>
+            <li><h4>Sa petougaonom kutijom</h4><p>Kutija ima uglast, petougaoni presek. Dobro ide uz ravne linije savremene fasade i stolarije.</p></li>
+          </ul>
+        </div>
+        <div class="group">
+          <h3>Pokretanje</h3>
+          <ul role="list">
+            <li><h4>Sa gurtnom (trakom)</h4><p>Roletnu podižete i spuštate trakom koja se namotava u namotač na zidu. Kad se gurtna posle godina istroši, menja se, a roletna ostaje.</p><a class="link" href="../servis/">Zamena gurtne</a></li>
+            <li><h4>Sa kanapom</h4><p>Umesto široke trake koristi se tanji kanap. Rešenje za manje prozore i mesta gde treba što manje mehanizma uz prozor.</p></li>
+            <li><h4>Sa elektro motorom</h4><p>Motor u osovini podiže i spušta roletnu na prekidač. Nema trake ni kanapa, a velike i teške roletne se pokreću bez napora.</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block block-white" aria-labelledby="boje">
+    <div class="wrap split split-wide">
+      <div class="prose">
+        <h2 id="boje">Boje roletni</h2>
+        <p>Roletne radimo u tri boje, da se uklope sa fasadom i stolarijom.</p>
+        <ul class="swatches" role="list">
+          <li><span class="dot" style="--c:#F2F2EE"></span>Bela</li>
+          <li><span class="dot" style="--c:#3B3F42"></span>Antracit (tamnija siva)</li>
+          <li><span class="dot" style="--c:#5A3E2B"></span>Braon</li>
+        </ul>
+        <h3>Već imate roletne koje zapinju?</h3>
+        <p>Pala roletna, pocepana gurtna ili roletna koja ne može do kraja da se spusti obično se mogu popraviti. Pogledajte <a href="../servis/">servis i popravke</a>.</p>
+      </div>
+      <figure>
+        <picture data-img="aluminijumska-roletna-gurtna" data-sizes="(min-width: 1400px) 540px, (min-width: 900px) 38vw, calc(100vw - 32px)" data-alt="Namotač gurtne pored prozora i aluminijumska roletna, pogled iznutra" data-class="photo photo-43"><source type="image/avif" srcset="../assets/img/aluminijumska-roletna-gurtna-480.avif 480w, ../assets/img/aluminijumska-roletna-gurtna-800.avif 800w, ../assets/img/aluminijumska-roletna-gurtna-1200.avif 1200w, ../assets/img/aluminijumska-roletna-gurtna-1600.avif 1600w" sizes="(min-width: 1400px) 540px, (min-width: 900px) 38vw, calc(100vw - 32px)"><source type="image/webp" srcset="../assets/img/aluminijumska-roletna-gurtna-480.webp 480w, ../assets/img/aluminijumska-roletna-gurtna-800.webp 800w, ../assets/img/aluminijumska-roletna-gurtna-1200.webp 1200w, ../assets/img/aluminijumska-roletna-gurtna-1600.webp 1600w" sizes="(min-width: 1400px) 540px, (min-width: 900px) 38vw, calc(100vw - 32px)"><img src="../assets/img/aluminijumska-roletna-gurtna-800.jpg" srcset="../assets/img/aluminijumska-roletna-gurtna-480.jpg 480w, ../assets/img/aluminijumska-roletna-gurtna-800.jpg 800w, ../assets/img/aluminijumska-roletna-gurtna-1200.jpg 1200w, ../assets/img/aluminijumska-roletna-gurtna-1600.jpg 1600w" sizes="(min-width: 1400px) 540px, (min-width: 900px) 38vw, calc(100vw - 32px)" width="800" height="1067" alt="Namotač gurtne pored prozora i aluminijumska roletna, pogled iznutra" class="photo photo-43" loading="lazy" decoding="async"></picture>
+        <figcaption class="cap">Roletna na gurtnu: namotač stoji na zidu, uz prozor.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="block" aria-labelledby="ponuda">
+    <div class="wrap">
+      <div class="cta cta-simple">
+        <h2 id="ponuda">Ponuda za roletne</h2>
+        <p>Pošaljite okvirne mere prozora i napišite koji tip vas zanima, ili zakažite merenje. Cenu dobijate po merama.</p>
+        <div class="btn-row">
+          <a class="btn btn-light" href="../kontakt/#forma">Zatražite ponudu</a>
+          <a class="btn btn-outline-light" href="https://wa.me/381601930660?text=Dobar%20dan%2C%20%C5%BEeleo%20bih%20ponudu%20za%20roletne%20"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Pošaljite sliku na WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="block" aria-labelledby="jos">
+    <div class="wrap">
+      <div class="head"><h2 id="jos">Pogledajte i</h2></div>
+      <nav class="next" aria-labelledby="jos">
+        <a href="../komarnici/"><picture data-img="plise-komarnici-za-vrata-antracit" data-sizes="120px" data-alt=""><source type="image/avif" srcset="../assets/img/plise-komarnici-za-vrata-antracit-480.avif 480w, ../assets/img/plise-komarnici-za-vrata-antracit-800.avif 800w, ../assets/img/plise-komarnici-za-vrata-antracit-1200.avif 1200w, ../assets/img/plise-komarnici-za-vrata-antracit-1600.avif 1600w" sizes="120px"><source type="image/webp" srcset="../assets/img/plise-komarnici-za-vrata-antracit-480.webp 480w, ../assets/img/plise-komarnici-za-vrata-antracit-800.webp 800w, ../assets/img/plise-komarnici-za-vrata-antracit-1200.webp 1200w, ../assets/img/plise-komarnici-za-vrata-antracit-1600.webp 1600w" sizes="120px"><img src="../assets/img/plise-komarnici-za-vrata-antracit-800.jpg" srcset="../assets/img/plise-komarnici-za-vrata-antracit-480.jpg 480w, ../assets/img/plise-komarnici-za-vrata-antracit-800.jpg 800w, ../assets/img/plise-komarnici-za-vrata-antracit-1200.jpg 1200w, ../assets/img/plise-komarnici-za-vrata-antracit-1600.jpg 1600w" sizes="120px" width="800" height="1067" alt="" loading="lazy" decoding="async"></picture><span><strong>Komarnici po meri</strong><span>Rolo, plise i fiksni, u boji vaše stolarije.</span></span></a>
+        <a href="../servis/"><picture data-img="aluminijumska-roletna-gurtna" data-sizes="120px" data-alt=""><source type="image/avif" srcset="../assets/img/aluminijumska-roletna-gurtna-480.avif 480w, ../assets/img/aluminijumska-roletna-gurtna-800.avif 800w, ../assets/img/aluminijumska-roletna-gurtna-1200.avif 1200w, ../assets/img/aluminijumska-roletna-gurtna-1600.avif 1600w" sizes="120px"><source type="image/webp" srcset="../assets/img/aluminijumska-roletna-gurtna-480.webp 480w, ../assets/img/aluminijumska-roletna-gurtna-800.webp 800w, ../assets/img/aluminijumska-roletna-gurtna-1200.webp 1200w, ../assets/img/aluminijumska-roletna-gurtna-1600.webp 1600w" sizes="120px"><img src="../assets/img/aluminijumska-roletna-gurtna-800.jpg" srcset="../assets/img/aluminijumska-roletna-gurtna-480.jpg 480w, ../assets/img/aluminijumska-roletna-gurtna-800.jpg 800w, ../assets/img/aluminijumska-roletna-gurtna-1200.jpg 1200w, ../assets/img/aluminijumska-roletna-gurtna-1600.jpg 1600w" sizes="120px" width="800" height="1067" alt="" loading="lazy" decoding="async"></picture><span><strong>Servis i popravke</strong><span>Zamena gurtne, pala roletna, štelovanje prozora i vrata.</span></span></a>
+      </nav>
+    </div>
+  </section>
+</main>
+
+<!-- @footer -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <p class="foot-logo"><svg class="mark" aria-hidden="true"><use href="#i-mark"/></svg><span class="logo-text">Komarnici <span>i roletne</span> Ivan</span></p>
+        <address>
+          Komarnici i Roletne Ivan<br>
+          Dimitrija Tucovića 119, 11050 Beograd<br>
+          <a href="tel:+381601930660">060 193 0660</a><br>
+          <a href="mailto:ivan.mijatovic.1984@gmail.com">ivan.mijatovic.1984@gmail.com</a>
+        </address>
+      </div>
+      <nav aria-label="Usluge">
+        <h2>Usluge</h2>
+        <ul>
+          <li><a href="../komarnici/">Komarnici po meri</a></li>
+          <li><a href="../roletne/">Aluminijumske roletne</a></li>
+          <li><a href="../servis/">Servis i popravke</a></li>
+          <li><a href="../kontakt/">Kontakt i ponuda</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2>Pošaljite sliku ili poruku</h2>
+        <ul>
+          <li><a href="https://wa.me/381601930660">WhatsApp: 060 193 0660</a></li>
+          <li><a href="viber://chat?number=%2B381601930660">Viber: 060 193 0660</a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Komarnici+i+Roletne+Ivan+Dimitrija+Tucovi%C4%87a+119+Beograd" rel="noopener">Recenzije na Google-u</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="foot-bottom">© 2026 Komarnici i Roletne Ivan</p>
+  </div>
+</footer>
+<div class="mobile-bar" data-mobile-bar>
+  <a class="btn btn-primary" href="tel:+381601930660"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Pozovite</a>
+  <a class="btn btn-ghost" href="https://wa.me/381601930660?text=Dobar%20dan%2C%20%C5%BEeleo%20bih%20ponudu%20za%20" data-wa><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>WhatsApp</a>
+</div>
+<!-- /@footer -->
+</body>
+</html>
